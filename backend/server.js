@@ -95,8 +95,8 @@ async function startServer() {
             console.log(`IT Support Desk API running on port ${PORT}`);
         });
     } catch (error) {
-        console.error("Could not start the server:", error.message);
-        process.exit(1);
+    console.error("Could not start the server:", error);
+    process.exit(1);
     }
 }
 
